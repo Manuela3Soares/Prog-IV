@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+   
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- fonte incrível link cdn  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- link de arquivo css personalizado  -->
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    
+<!-- Cabeçalho  -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>RESTAURANTE.</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Pratos</a>
+        <a href="#about">Sobre Nós</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Rever</a>
+        <a href="#order">Ordem</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="Login.html"><i class="fas fa-sign-out-alt"></i></a>
+    </div>
+
+</header>
+
+
+
+<!-- Formulário de pesquisa  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="Procure aqui..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- Secção home  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Nosso Prato Especial</span>
+                    <h3>Macarrão picante</h3>
+                    <p></p>
+                    <a href="#" class="btn">Peça agora</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Nosso Prato Especial</span>
+                    <h3>Frango frito</h3>
+                    <p></p>
+                    <a href="#" class="btn">Peça agora</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Nosso Prato Especial</span>
+                    <h3>Pizza quente</h3>
+                    <p></p>
+                    <a href="#" class="btn">Peça Agora</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- Secção de pratos  -->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> Nossos pratos </h3>
+    <h1 class="heading"> Pratos populares </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/Cahorro-casa (1).png" alt="">
+            <h3>Cachorro da casa</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5 500 Kz</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-2.png" alt="">
+            <h3>Rissóis de Camarão</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>3 500 Kz</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="">
+            <h3>Frango Especial</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>7 500 Kz</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-4.png" alt="">
+            <h3>Pizza de Queijo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4 000 Kz</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="">
+            <h3>Biscoite</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>2 500 Kz</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="">
+            <h3>Grelhado Misto</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4 800 Kz</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- sobre o início da seção  -->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> Sobre nós </h3>
+    <h1 class="heading"> Por que escolher-nos? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/Funge_ovo_chori(2).png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Melhor comida do país</h3>
+            <p>Funge com ovo e choriço</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Entrega grátis</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Pagamentos fáceis</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>Serviço 24/24</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Saber mais...</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- sobre as extremidades da seção -->
+
+<!-- começa a seção do menu  -->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> Nosso cardápio </h3>
+    <h1 class="heading">Menu de hoje </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/Peixe-arroz_salada (1).png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Arroz com Peixe Salada  </h3>
+                <p></p>
+                <a href="#" class="btn">Add ao carrinho</a>
+                <span class="price">5 500 Kz</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/Mandioca-fumbua.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Fumbua com Mandioca</h3>
+                <p></p>
+                <a href="#" class="btn">Add Pedido</a>
+                <span class="price">3 500 Kz</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/Sopa-creme_saudavel (1).png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Sopa a moda da casa</h3>
+                <p></p>
+                <a href="#" class="btn">Add Pedido</a>
+                <span class="price">2 000 Kz</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/mufete.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Mufete</h3>
+                <p></p>
+                <a href="#" class="btn">Add Pedido</a>
+                <span class="price">3 000 Kz</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/batido 1.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3> Batido de Banana</h3>
+                <p></p>
+                <a href="#" class="btn">Add Pedido</a>
+                <span class="price">1 500 Kz</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/batido 2.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Batido de Abacate</h3>
+                <p></p>
+                <a href="#" class="btn">Add Pedido</a>
+                <span class="price">1 500 Kz</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/coktal.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Coktails Especias</h3>
+                <p></p>
+                <a href="#" class="btn">Add Pedido</a>
+                <span class="price">2 000 Kz</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/coktal 2.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Coktail Azul</h3>
+                <p></p>
+                <a href="#" class="btn">Add Pedido</a>
+                <span class="price">1 500 Kz</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-9.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Sumo Natural</h3>
+                <p></p>
+                <a href="#" class="btn">Add Pedido</a>
+                <span class="price">1 500 Kz</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- termina a seção do menu -->
+
+<!-- seção de revisão começa  -->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading">reclamações dos cliente</h3>
+    <h1 class="heading"> O que eles disseram! </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/Rivaldo.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Emanuel Soares</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+</section>
+
+<!-- início da secção de pedidos  -->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> Peça Já </h3>
+    <h1 class="heading"> Grátis e Rápido</h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Seu Nome</span>
+                <input type="text" placeholder="Digite seu nome">
+            </div>
+            <div class="input">
+                <span>Seu Número</span>
+                <input type="number" placeholder="Digita seu número">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Seu Pedido</span>
+                <input type="text" placeholder="Digita seu pedido">
+            </div>
+            <div class="input">
+                <span>Comida adicional</span>
+                <input type="test" placeholder="Comida Extra">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Quantos</span>
+                <input type="number" placeholder="Quantos pedidos">
+            </div>
+            <div class="input">
+                <span>Data e Hora</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Seu endereço</span>
+                <textarea name="" placeholder="Digita seu endereço" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Sua mensagem</span>
+                <textarea name="" placeholder="Digita sua mensagem" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="Pedir" class="btn">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>localização</h3>
+            <a href="#">Angola</a>
+        </div>
+
+        <div class="box">
+            <h3>Links Rápidos</h3>
+            <a href="#">Home</a>
+            <a href="#">Cardapio</a>
+            <a href="#">Nós</a>
+            <a href="#">Menu</a>
+            <a href="#">voltar</a>
+            <a href="#">Ordem</a>
+        </div>
+
+        <div class="box">
+            <h3>Informações de contato</h3>
+            <a href="#">+244 957002345</a>
+            <a href="#">+244 940696724</a>
+            <a href="#">manuelafsoares3@gmail.com</a>
+            <a href="#">Cassenda,Luanda,Angola</a>
+        </div>
+
+        <div class="box">
+            <h3>Siga-me</h3>
+            <a href="#">Whatsapp</a>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2024 by <span>Meu Web Site</span> </div>
+
+</section>
+
+
+<!-- loader  -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- link do ficheiro js personalizado -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
