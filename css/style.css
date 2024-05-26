@@ -1,6 +1,5 @@
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 
@@ -603,37 +602,6 @@ header .icons #menu-bars{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries  */
 
 @media (max-width:991px){
@@ -709,3 +677,7 @@ header .icons #menu-bars{
 
 }
 
+
+body {
+    background-image: url("../images/transf1.jpg")
+}
